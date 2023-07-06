@@ -36,9 +36,40 @@
     align-items: center;
     /* border: 2px solid gray; */
     color: white;
-    background-image: url("/images/background.png"),linear-gradient(45deg,rgb(8, 8, 8,),rgb(53, 53, 53));
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
    background-position: center;
    background-size: center;
    background-repeat: no-repeat;
    
+}
+.tittle{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    color: red;
+    background-color: aqua;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.title-about{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
 }
